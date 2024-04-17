@@ -50,6 +50,7 @@ jobs:
         with:
           image: mattiaeffendi/docker-test
           registry: docker.io
+          tags: latest
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
                   
