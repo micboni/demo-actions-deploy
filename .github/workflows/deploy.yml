@@ -48,7 +48,7 @@ jobs:
 
       - uses: mr-smithers-excellent/docker-build-push@v6
         with:
-          image: mattiaeffendi/docker-test
+          image: micboni/docker-test
           registry: docker.io
           tags: latest
           username: ${{ secrets.DOCKER_USERNAME }}
